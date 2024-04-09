@@ -1,0 +1,22 @@
+.odd {
+    background-color: rgba(240, 123, 157, 0.9);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#two {
+    color: rgb(52, 49, 216);
+    font-weight: bold;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cooler {
+    font-size: 32px;
+}
+
+#four {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(138, 220, 138);
+    font-size: 28px;
+    font-weight: bold;
+}

@@ -1,5 +1,25 @@
+/*
+  <body>
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+
+    <button id="confirm-button" class="button confirm">Confirm</button>
+    <button id="cancel-button" class="button cancel">Cancel</button>
+
+    <div class="text">I'm a div with thin text!</div>
+    <div class="text">I'm a div with thin text and a child div!
+      <div class="text child">I'm a smaller child div with extra bold text.</div>
+    </div>
+  </body>
+*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .para,
@@ -8,20 +28,15 @@ body {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
+.child {
+  color: rgb(0, 0, 0);
   font-weight: 800;
+  font-size: 14px;
 }
 
 .para {
   font-size: 22px;
 }
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,11 +44,11 @@ body {
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
 div.text {
   color: rgb(0, 0, 0);
